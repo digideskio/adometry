@@ -1,0 +1,21 @@
+
+/**
+ * Adometry logo.
+ */
+
+.logo[data-logo="Adometry"] {
+  width: 0;
+}
+
+.logo[data-logo="Adometry"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Adometry"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Adometry"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
